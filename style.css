@@ -1,0 +1,121 @@
+#headnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(120, 130, 164);
+    width: 100%;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;  
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+li a:hover{
+    background-color: rgb(160, 168, 92);
+}
+
+.bckpic{
+  background-image: url("./images/tetracoffe1picbckgrnd.avif");
+  width: auto;
+  
+  
+} 
+
+h1{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h3{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:rgb(59, 54, 54);
+   font-weight: bold;
+}
+
+.iconofsiteli{
+     font-family: cursive;
+}
+
+.americano{
+    width: 100%;
+    height: auto;
+}
+
+.styinlv{
+    background-color: rgb(207, 207, 207);
+}
+
+.abtus{
+    font-size: 24px;
+}
+
+.bllog{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bllog {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+    }
+  }
+  
+.lrnmrbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-color: brown;
+}
+.lrnmrbtn:hover{
+    background-color: rgba(255, 123, 0, 0.789);
+    border-color: rgba(255, 123, 0, 0.789);
+}
+ 
+.footer{
+    background-color: rgb(202, 187, 169);
+}
+
+.fotooftr{
+    background-image: url("./images/pexels-roman-odintsov-4551127.jpg");
+}
+
+
+.search-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  form {
+    display: flex;
+    border-radius: 50%;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }  
+
+
+
+
